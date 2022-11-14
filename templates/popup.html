@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPUP - Design</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <img src="Tick.png">
+            <h2> Welcome </h2>
+            <p>Do you want to continue with Ads ? </p>
+            <a href="https://stackoverflow.com/questions/72673898/cannot-import-name-force-text-from-django-utils-encoding";><input type=button class="bt"value='Yes'></a> 
+            <a href="https://stackoverflow.com/questions/72673898/cannot-import-name-force-text-from-django-utils-encoding";><input type=button class="bt"value='No'></a> 
+        </div>
+        
+
+    </div>
+    
+<script type="text/javascript">
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+
+        popup.classList.add("open-popup");
+    }
+    
+    
+    function closePopup(){
+
+     popup.classList.remove("open-popup");
+     }
+
+
+
+</script>  
+
+
+</body>
+</html>
